@@ -23,6 +23,6 @@ const path = require('path')
 //     })
 
 // }
-app.get('/', (req, res) => res.send('Welcome to Equipment Hiring '))
+app.get('/', (req, res) => res.send('<h1>Welcome to Equipment Hiring<\h1> '))
 
 app.listen(port, () => console.log(`Node JS Server Started in Port ${port}`))
